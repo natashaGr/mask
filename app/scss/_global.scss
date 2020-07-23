@@ -1,0 +1,155 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   border: 0px;
+}
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+   display: block;
+}
+html,
+body {
+   height: 100%;
+}
+body {
+   line-height: 1;
+}
+
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+.slick-slider {
+   position: relative;
+   .slick-track,
+   .slick-list {
+      transform: translate3d(0, 0, 0);
+   }
+   .slick-list {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+   }
+   .slick-track {
+      position: relative;
+      width: 100%;
+   }
+   .slick-slide {
+      position: relative;
+   }
+   .slick-arrow {
+      &.slick-prev {
+      }
+      &.slick-next {
+      }
+   }
+   .slick-dots {
+      li {
+         button {
+         }
+         &.slick-active {
+            button {
+            }
+         }
+      }
+   }
+}
+body {
+   min-width: 320px;
+   font-family: "Ubuntu", sans-serif;
+   position: relative;
+   color: #000;
+   font-size: 18px;
+}
+//</ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===============================================================================================
+
+//<ОБОЛОЧКА>===========================================================================================================
+.wrapper {
+   width: 100%;
+   min-height: 100%;
+   overflow: hidden;
+}
+//</ОБОЛОЧКА>===========================================================================================================
+
+//<ОСНОВНАЯ СЕТКА>===========================================================================================================
+.container {
+   max-width: 1150px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.btn {
+   display: block;
+   max-width: 291px;
+   width: 100%;
+   padding: 19px 10px 18px 10px;
+   background: #046860;
+   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 30px;
+   text-align: center;
+   font-weight: 700;
+   font-size: 20px;
+   color: #ffffff;
+   &--sm {
+      max-width: 215px;
+   }
+   &:hover,
+   &:focus,
+   &:active {
+      opacity: 0.7;
+   }
+}
+
+.title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 42px;
+   color: #2c2c2c;
+}
+//</ОСНОВНАЯ СЕТКА>===========================================================================================================
